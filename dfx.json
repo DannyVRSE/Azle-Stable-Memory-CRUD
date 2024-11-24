@@ -1,0 +1,15 @@
+{
+    "canisters": {
+        "superheroes": {
+            "type": "azle",
+            "main": "src/index.ts",
+            "custom": {
+                "experimental": true
+            },
+            "declarations": {
+                "output": "test/dfx_generated/superheroes",
+                "node_compatibility": true
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+service: () -> {
+    create: (text) -> (text);
+    delete: (nat32) -> (bool);
+    getAll: () -> (text) query;
+    getById: (nat32) -> (text) query;
+    update: (nat32, text) -> (bool);
+}
